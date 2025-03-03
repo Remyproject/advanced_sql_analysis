@@ -1,0 +1,61 @@
+
+--DATA SEGMENTATION
+/* Segment products into cost ranges and count
+how many products fall into each segment */
+
+WITH cost_category AS (
+SELECT
+product_key,
+product_name,
+product_cost,
+CASE WHEN product_cost < 100 THEN 'Below 100'
+	WHEN product_cost BETWEEN 100 AND 500 THEN '100 -500'
+	WHEN product_cost BETWEEN 500 AND 1000 THEN '500 - 1000'
+	ELSE 'Above 1000'
+END AS cost_range
+FROM Gold.dim_products
+)
+SELECT 
+cost_range,
+COUNT(product_key) AS total_products
+FROM cost_category
+GROUP BY cost_range 
+ORDER BY total_products DESC
+
+ /* Group customers into three segments based on their spending behavior:
+	- VIP : Customers with at least 12 months of History and spending more than $5,000.
+	- Regular: Customers with atleast 12 months of history but spending $5,000 or Less.
+	- New: Customers with a lifespan less than 12 months.
+	and find the total number of customers by each group */
+WITH cus_lifespan AS
+(
+SELECT
+c.customer_key,
+SUM(s.sales) as total_spending,
+MIN(order_date) as first_order,
+MIN(order_date) as last_order,
+DATEDIFF(MONTH, MIN(order_date), MAX(order_date)) AS lifespan
+FROM Gold.fact_sales s
+LEFT JOIN Gold.dim_customers c 
+on s.customer_key = c.customer_key
+GROUP BY
+c.customer_key
+)
+
+SELECT
+COUNT(customer_key) as total_customer,
+cus_seg
+FROM
+(
+SELECT 
+customer_key,
+total_spending,
+lifespan,
+CASE WHEN total_spending > 5000 and lifespan >= 12 THEN 'VIP'
+	WHEN total_spending <= 5000 and lifespan >= 12 THEN 'Regular'
+	ELSE 'New'
+END AS cus_seg
+FROM cus_lifespan
+) t
+GROUP BY cus_seg
+ORDER BY total_customer DESC
