@@ -1,87 +1,122 @@
-# advanced_sql_analysis
-# Sales Performance Analysis Report  
-**Clear Insights to Drive Business Decisions**  
+# Business Performance Reports  
+**Actionable Insights for Products & Customers**  
 
 ---
 
 ## **Overview**  
-This analysis explores sales trends, product performance, and customer behavior to help you understand:  
-- **Sales Growth**: How sales change over months and years.  
-- **Product Insights**: Which products/categories drive revenue.  
-- **Customer Segments**: Who your top customers are.  
-- **Cost vs. Revenue**: How product pricing impacts sales.  
+This analysis creates two powerful reports to help businesses:  
+1. **Product Report**: Track product performance, pricing impact, and customer demand.  
+2. **Customer Report**: Understand spending habits, loyalty, and demographic trends.  
 
-All metrics are simplified for easy understanding.  
+All calculations use real sales data to provide clear, actionable metrics.  
 
 ---
 
-## **Key Findings**  
+## **Product Report**  
+*Answers: Which products drive revenue? What’s their pricing impact?*  
 
-### **1. Sales Over Time**  
-- **Yearly Trends**:  
-  - **Top Year**: [2013] with **$16,344,878** in sales.  
-- **Monthly Trends**:  
-  - **Best Month**: [December] with **$Z** in sales.  
-  - **Average Orders per Month**: [$3456].  
+### **Key Metrics**  
+1. **Product Segmentation**:  
+   - `High Performance`: Sales > $50,000  
+   - `Mid Performance`: Sales between $10,000–$50,000  
+   - `Low Performance`: Sales < $10,000  
 
----
+2. **Calculations**:  
+   - **Recency**: Months since last purchase (e.g., "3 months ago").  
+   - **Average Order Revenue**: Total sales ÷ Total orders.  
+   - **Monthly Revenue**: Total sales ÷ Product lifespan (in months).  
+   - **Lifespan**: Months between first and last sale.  
 
-
-### **3. Customer Insights**  
-- **Customer Segments**:  
-  - **VIP Customers** (spend >$5,000): 15% of total customers.  
-  - **Regular Customers**: 60%.  
-  - **New Customers**: 25%.  
-- **Geographic Trends**:  
-  - **Top Country**: USA with **50%** of total sales.  
-
----
-
-### **4. Pricing & Costs**  
-- **Product Cost Ranges**:  
-  - **75%** of products cost between **$100–$500**.  
-  - Only **5%** cost over **$1,000**.  
-- **Average Price**: **$85** per item.  
+3. **Example**:  
+   - A product with $60,000 sales over 12 months:  
+     - **Segment**: High Performance  
+     - **Monthly Revenue**: $5,000  
+     - **Average Order**: $500 (if 120 orders).  
 
 ---
 
+## **Customer Report**  
+*Answers: Who are our top customers? How do they behave?*  
 
-## **How This Helps Your Business**  
-1. **Focus on Top Products**: Invest in high-performing categories like Electronics.  
-2. **Retain VIP Customers**: Offer loyalty rewards to your top 15% spenders.  
-3. **Adjust Pricing**: Review underperforming products priced over $1,000.  
-4. **Target New Markets**: Expand in countries with fewer customers.  
+### **Key Metrics**  
+1. **Customer Segmentation**:  
+   - **VIP**: Spent > $5,000 with 12+ months of activity.  
+   - **Regular**: Spent ≤ $5,000 with 12+ months of activity.  
+   - **New**: Active for < 12 months.  
 
----
+2. **Age Groups**:  
+   - Under 20, 20–29, 30–39, 40–49, 50+.  
 
-## **Detailed Insights**  
+3. **Calculations**:  
+   - **Recency**: Months since last order.  
+   - **Average Order Value**: Total sales ÷ Total orders.  
+   - **Monthly Spend**: Total sales ÷ Customer lifespan (in months).  
 
-### **Sales Trends**  
-- **2010–2014**: Sales grew by **$500K** annually.  
-- **Holiday Peaks**: December sales are **2x higher** than average.  
-
-### **Customer Behavior**  
-- **VIP Customers**: Drive **40%** of total revenue.  
-- **New Customers**: Most join during holiday promotions.  
-
-### **Product Analysis**  
-- **Best Subcategory**: Bikes  with **$29.4M** in sales.  
-- **Lowest Growth**: clothing (down **10%**).  
-
----
-
-## **Recommendations**  
-- **Boost Marketing**: Target Regular customers to convert them to VIP.  
-- **Discount Slow-Movers**: Clear inventory for underperforming products.  
-- **Track Monthly Metrics**: Use trends to plan inventory and staffing.  
+4. **Example**:  
+   - A customer with $6,000 spent over 18 months:  
+     - **Segment**: VIP  
+     - **Monthly Spend**: $333  
+     - **Average Order**: $200 (if 30 orders).  
 
 ---
 
-**Need a Custom Analysis for Your Business?**  
-Let’s turn your data into actionable strategies!  
-📧 **Contact me**: [folohunsoremilekun@gmail.com]  
-💼 **Portfolio**: [Your Website/LinkedIn]  
+## **How These Reports Help**  
+
+### **For Products**  
+- **Focus on High Performers**: Prioritize marketing for top-selling products.  
+- **Adjust Pricing**: Compare `product_cost` to `avg_selling_price` for profit insights.  
+- **Retire Low Performers**: Identify products with declining sales.  
+
+### **For Customers**  
+- **Retain VIPs**: Offer exclusive deals to your top 10% spenders.  
+- **Engage New Customers**: Target promotions to convert them to Regulars.  
+- **Track Trends**: Use age groups to tailor marketing (e.g., focus on 30–39 age group).  
+
+---
+
+## **Behind the Scenes**  
+
+### **Data Sources**  
+- **Sales Data**: Order dates, quantities, prices.  
+- **Product Data**: Categories, costs, names.  
+- **Customer Data**: Birthdates, names, purchase history.  
+
+### **How Metrics Are Built**  
+1. **Product Report**:  
+   - Combines sales and product tables.  
+   - Groups data by product to calculate totals and averages.  
+   - Uses time differences to measure lifespan and recency.  
+
+2. **Customer Report**:  
+   - Links sales to customer profiles.  
+   - Groups data by customer to track spending over time.  
+   - Classifies customers into segments based on spending and activity.  
+
+---
+
+## **Example Insights**  
+1. **Product**:  
+   - "Wireless Headphones" (Electronics) are High Performers with $75,000 sales.  
+   - Their average monthly revenue is $6,250 (12-month lifespan).  
+
+2. **Customer**:  
+   - 40% of VIP customers are aged 30–39.  
+   - New customers have a 20% higher average order value than Regulars.  
+
+---
+
+## **Next Steps**  
+1. **Monthly Reviews**: Use these reports to track changes over time.  
+2. **Promotions**: Reward VIPs with early access to new products.  
+3. **Inventory Planning**: Stock more High-Performance products.  
+
+---
+
+**Need Custom Reports for Your Business?**  
+Let’s turn your data into decisions!  
+📩 **Contact**: [folohunsoremilekun]  
+🔗 **Portfolio**: [https://mavenanalytics.io/profile/remifolohunso]  
 
 --- 
 
-**Note**: All data is aggregated and anonymized to protect privacy.  
+*All calculations use anonymized data. No sensitive customer information is stored.*  
