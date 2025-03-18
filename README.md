@@ -119,7 +119,7 @@ All calculations use real sales data to provide clear, actionable metrics.
 
 **Need Custom Reports for Your Business?**  
 Let’s turn your data into decisions!  
-📩 **Contact**: [folohunsoremilekun]  
+📩 **Contact**: [LinkedIn][https://www.linkedin.com/in/folohunsoremilekun/]  
 🔗 **Portfolio**: [https://mavenanalytics.io/profile/remifolohunso]  
 
 --- 
