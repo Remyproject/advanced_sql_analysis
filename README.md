@@ -15,6 +15,8 @@ All calculations use real sales data to provide clear, actionable metrics.
 ## **Product Report**  
 *Answers: Which products drive revenue? What’s their pricing impact?*  
 
+<img width="608" alt="over" src="https://github.com/user-attachments/assets/582d6920-e6e4-4565-adb3-317f32ba0e34" />
+
 ### **Key Metrics**  
 1. **Product Segmentation**:  
    - `High Performance`: Sales > $50,000  
@@ -37,6 +39,7 @@ All calculations use real sales data to provide clear, actionable metrics.
 
 ## **Customer Report**  
 *Answers: Who are our top customers? How do they behave?*  
+<img width="610" alt="cus" src="https://github.com/user-attachments/assets/5f29c523-b3b0-4dfd-a5b5-de7f4da15636" />
 
 ### **Key Metrics**  
 1. **Customer Segmentation**:  
@@ -61,6 +64,8 @@ All calculations use real sales data to provide clear, actionable metrics.
 ---
 
 ## **How These Reports Help**  
+<img width="668" alt="pro" src="https://github.com/user-attachments/assets/2680ee28-e955-4699-88fc-a7badcb99520" />
+
 
 ### **For Products**  
 - **Focus on High Performers**: Prioritize marketing for top-selling products.  
