@@ -1,0 +1,131 @@
+product_key	Product_name	category	subcategory	product_cost	recency_in_month	product segment	lifespan	total customer	total orders	total_quantity	avg_sell_price	avg_order_revenue	avg_monthly_revenue
+3	Mountain-100 Black- 38	Bikes	Mountain Bikes	1898	159	High performance	11	49	49	49	3375	3375	15034
+4	Mountain-100 Black- 42	Bikes	Mountain Bikes	1898	159	High performance	11	45	45	45	3375	3375	13806
+5	Mountain-100 Black- 44	Bikes	Mountain Bikes	1898	159	High performance	11	60	60	60	3375	3375	18409
+6	Mountain-100 Black- 48	Bikes	Mountain Bikes	1898	159	High performance	12	57	57	57	3375	3375	16031
+7	Mountain-100 Silver- 38	Bikes	Mountain Bikes	1912	159	High performance	12	58	58	58	3400	3400	16433
+8	Mountain-100 Silver- 42	Bikes	Mountain Bikes	1912	159	High performance	11	42	42	42	3400	3400	12981
+9	Mountain-100 Silver- 44	Bikes	Mountain Bikes	1912	159	High performance	12	49	49	49	3400	3400	13883
+10	Mountain-100 Silver- 48	Bikes	Mountain Bikes	1912	159	High performance	11	36	36	36	3400	3400	11127
+16	Road-150 Red- 44	Bikes	Road Bikes	2171	159	High performance	12	281	281	281	3578	3578	83784
+17	Road-150 Red- 48	Bikes	Road Bikes	2171	159	High performance	12	337	337	337	3578	3578	100482
+18	Road-150 Red- 52	Bikes	Road Bikes	2171	159	High performance	12	302	302	302	3578	3578	90046
+19	Road-150 Red- 56	Bikes	Road Bikes	2171	159	High performance	12	295	295	295	3578	3578	87959
+20	Road-150 Red- 62	Bikes	Road Bikes	2171	159	High performance	12	336	336	336	3578	3578	100184
+43	Road-650 Black- 44	Bikes	Road Bikes	487	147	Mid performance	23	63	63	63	755	755	2068
+44	Road-650 Black- 48	Bikes	Road Bikes	487	147	Mid performance	21	60	60	60	759.2	759	2169
+45	Road-650 Black- 52	Bikes	Road Bikes	487	147	High performance	23	89	89	89	751.9	751	2909
+46	Road-650 Black- 58	Bikes	Road Bikes	487	147	High performance	23	76	76	76	763.1	763	2521
+47	Road-650 Black- 60	Bikes	Road Bikes	487	147	High performance	22	76	76	76	752.1	752	2598
+48	Road-650 Black- 62	Bikes	Road Bikes	487	147	Mid performance	24	65	65	65	754.6	754	2043
+49	Road-650 Red- 44	Bikes	Road Bikes	487	147	High performance	23	72	72	72	757.3	757	2370
+50	Road-650 Red- 48	Bikes	Road Bikes	487	147	High performance	23	88	88	88	758.2	758	2900
+51	Road-650 Red- 52	Bikes	Road Bikes	487	147	Mid performance	24	61	61	61	755.5	755	1920
+52	Road-650 Red- 58	Bikes	Road Bikes	487	147	High performance	22	74	74	74	761.4	761	2561
+53	Road-650 Red- 60	Bikes	Road Bikes	487	147	Mid performance	23	53	53	53	756.1	756	1742
+54	Road-650 Red- 62	Bikes	Road Bikes	487	147	High performance	23	75	75	75	765.1	765	2494
+55	Road-250 Red- 44	Bikes	Road Bikes	1519	147	High performance	12	144	144	144	2443	2443	29316
+56	Road-250 Red- 48	Bikes	Road Bikes	1519	147	High performance	12	162	162	162	2443	2443	32980
+57	Road-250 Red- 52	Bikes	Road Bikes	1519	147	High performance	12	133	133	133	2443	2443	27076
+101	Mountain Bottle Cage	Accessories	Bottles and Cages	4	134	Mid performance	13	2004	2025	2034	10	10	1564
+102	Road Bottle Cage	Accessories	Bottles and Cages	3	134	Mid performance	13	1699	1711	1711	9	9	1184
+103	Water Bottle - 30 oz.	Accessories	Bottles and Cages	2	134	Mid performance	13	4073	4244	4249	5	5	1634
+104	Hitch Rack - 4-Bike	Accessories	Bike Racks	45	134	Mid performance	12	324	327	327	120	120	3270
+105	All-Purpose Bike Stand	Accessories	Bike Stands	59	134	Mid performance	13	243	249	249	159	159	3045
+106	Bike Wash - Dissolver	Accessories	Cleaners	3	134	Low performance	12	875	908	909	8	8	606
+107	Fender Set - Mountain	Accessories	Fenders	8	134	Mid performance	13	2110	2121	2121	22	22	3589
+108	Sport-100 Helmet- Black	Accessories	Helmets	13	134	High performance	13	2024	2085	2085	35	35	5613
+109	Sport-100 Helmet- Blue	Accessories	Helmets	13	134	High performance	13	2049	2124	2125	35	35	5721
+110	Sport-100 Helmet- Red	Accessories	Helmets	13	134	High performance	13	2147	2230	2230	35	35	6003
+111	Hydration Pack - 70 oz.	Accessories	Hydration Packs	21	134	Mid performance	13	719	733	733	55	55	3101
+112	Patch Kit/8 Patches	Accessories	Tires and Tubes	1	134	Low performance	13	2948	3189	3189	2	2	490
+113	LL Mountain Tire	Accessories	Tires and Tubes	9	134	Mid performance	12	828	860	862	25	25	1795
+114	ML Mountain Tire	Accessories	Tires and Tubes	11	134	Mid performance	13	1160	1160	1160	30	30	2676
+115	HL Mountain Tire	Accessories	Tires and Tubes	13	134	Mid performance	13	1395	1395	1396	35	35	3758
+116	LL Road Tire	Accessories	Tires and Tubes	8	134	Mid performance	13	1029	1043	1043	21	21	1684
+117	ML Road Tire	Accessories	Tires and Tubes	9	134	Mid performance	13	890	925	925	25	25	1778
+118	HL Road Tire	Accessories	Tires and Tubes	12	134	Mid performance	13	820	858	858	33	33	2178
+119	Touring Tire	Accessories	Tires and Tubes	11	134	Mid performance	13	920	935	935	29	29	2085
+120	Mountain Tire Tube	Accessories	Tires and Tubes	2	134	Mid performance	13	2958	3092	3093	5	5	1189
+121	Road Tire Tube	Accessories	Tires and Tubes	1	134	Low performance	13	2225	2375	2375	4	4	730
+122	Touring Tire Tube	Accessories	Tires and Tubes	2	134	Low performance	13	1410	1487	1487	5	5	571
+123	Mountain-500 Black- 40	Bikes	Mountain Bikes	295	135	Mid performance	12	48	48	48	540	540	2160
+124	Mountain-500 Black- 42	Bikes	Mountain Bikes	295	135	Mid performance	11	49	49	49	540	540	2405
+125	Mountain-500 Black- 44	Bikes	Mountain Bikes	295	135	Mid performance	11	58	58	58	540	540	2847
+126	Mountain-500 Black- 48	Bikes	Mountain Bikes	295	135	Mid performance	11	56	56	56	540	540	2749
+127	Mountain-500 Black- 52	Bikes	Mountain Bikes	295	135	Mid performance	11	41	41	41	540	540	2012
+128	Mountain-500 Silver- 40	Bikes	Mountain Bikes	308	135	Mid performance	11	45	45	45	565	565	2311
+129	Mountain-500 Silver- 42	Bikes	Mountain Bikes	308	135	Mid performance	11	45	45	45	565	565	2311
+130	Mountain-500 Silver- 44	Bikes	Mountain Bikes	308	135	Mid performance	12	39	39	39	565	565	1836
+131	Mountain-500 Silver- 48	Bikes	Mountain Bikes	308	135	Mid performance	11	50	50	50	565	565	2568
+132	Mountain-500 Silver- 52	Bikes	Mountain Bikes	308	135	Mid performance	11	48	48	48	565	565	2465
+133	Mountain-400-W Silver- 38	Bikes	Mountain Bikes	420	135	High performance	11	148	148	148	769	769	10346
+134	Mountain-400-W Silver- 40	Bikes	Mountain Bikes	420	135	High performance	12	128	128	128	769	769	8202
+135	Mountain-400-W Silver- 42	Bikes	Mountain Bikes	420	135	High performance	11	129	129	129	769	769	9018
+136	Mountain-400-W Silver- 46	Bikes	Mountain Bikes	420	135	High performance	11	138	138	138	769	769	9647
+137	Mountain-200 Black- 38	Bikes	Mountain Bikes	1252	135	High performance	24	564	581	581	2224.7	2224	53856
+138	Mountain-200 Black- 42	Bikes	Mountain Bikes	1252	135	High performance	23	604	614	614	2220.1	2220	59266
+139	Mountain-200 Black- 46	Bikes	Mountain Bikes	1252	135	High performance	24	600	620	620	2215.2	2215	57227
+140	Mountain-200 Silver- 38	Bikes	Mountain Bikes	1266	135	High performance	23	583	596	596	2247.3	2247	58234
+141	Mountain-200 Silver- 42	Bikes	Mountain Bikes	1266	135	High performance	24	547	560	560	2245.3	2245	52390
+142	Mountain-200 Silver- 46	Bikes	Mountain Bikes	1266	135	High performance	23	566	579	579	2243	2243	56465
+143	Road-550-W Yellow- 38	Bikes	Road Bikes	713	135	High performance	24	267	270	270	1088	1088	12240
+144	Road-550-W Yellow- 40	Bikes	Road Bikes	713	135	High performance	23	264	266	266	1089.8	1089	12603
+145	Road-550-W Yellow- 42	Bikes	Road Bikes	713	135	High performance	24	303	306	306	1092.9	1092	13935
+146	Road-550-W Yellow- 44	Bikes	Road Bikes	713	135	High performance	23	286	287	287	1087.8	1087	13573
+147	Road-550-W Yellow- 48	Bikes	Road Bikes	713	135	High performance	22	258	261	261	1086.9	1086	12894
+148	Road-250 Red- 58	Bikes	Road Bikes	1555	135	High performance	24	301	306	306	2296.3	2296	29277
+149	Road-350-W Yellow- 40	Bikes	Road Bikes	1083	135	High performance	12	246	246	246	1701	1701	34870
+150	Road-350-W Yellow- 42	Bikes	Road Bikes	1083	135	High performance	12	235	235	235	1701	1701	33311
+151	Road-350-W Yellow- 44	Bikes	Road Bikes	1083	135	High performance	11	216	216	216	1701	1701	33401
+152	Road-350-W Yellow- 48	Bikes	Road Bikes	1083	135	High performance	12	232	232	232	1701	1701	32886
+153	Road-250 Black- 44	Bikes	Road Bikes	1555	135	High performance	24	266	271	271	2318.8	2318	26182
+154	Road-250 Black- 48	Bikes	Road Bikes	1555	135	High performance	23	289	298	298	2319.5	2319	30052
+155	Road-250 Black- 52	Bikes	Road Bikes	1555	135	High performance	24	312	319	319	2302.3	2302	30601
+156	Road-250 Black- 58	Bikes	Road Bikes	1555	135	High performance	24	265	270	270	2303.8	2303	25917
+157	Road-750 Black- 44	Bikes	Road Bikes	344	135	High performance	12	360	360	360	540	540	16200
+158	Road-750 Black- 48	Bikes	Road Bikes	344	135	High performance	12	363	363	363	540	540	16335
+159	Road-750 Black- 52	Bikes	Road Bikes	344	135	High performance	12	386	386	386	540	540	17370
+160	Road-750 Black- 58	Bikes	Road Bikes	344	135	High performance	12	334	334	334	540	540	15030
+161	Touring-3000 Blue- 44	Bikes	Touring Bikes	461	135	Mid performance	11	53	53	53	742	742	3575
+162	Touring-3000 Blue- 50	Bikes	Touring Bikes	461	135	Mid performance	11	48	48	48	742	742	3237
+163	Touring-3000 Blue- 54	Bikes	Touring Bikes	461	135	Mid performance	12	55	55	55	742	742	3400
+164	Touring-3000 Blue- 58	Bikes	Touring Bikes	461	135	Mid performance	11	57	57	57	742	742	3844
+165	Touring-3000 Blue- 62	Bikes	Touring Bikes	461	135	Mid performance	11	64	64	64	742	742	4317
+166	Touring-3000 Yellow- 44	Bikes	Touring Bikes	461	135	Mid performance	11	59	59	59	742	742	3979
+167	Touring-3000 Yellow- 50	Bikes	Touring Bikes	461	135	Mid performance	11	59	59	59	742	742	3979
+168	Touring-3000 Yellow- 54	Bikes	Touring Bikes	461	135	Mid performance	11	48	48	48	742	742	3237
+169	Touring-3000 Yellow- 58	Bikes	Touring Bikes	461	135	Mid performance	12	47	47	47	742	742	2906
+170	Touring-3000 Yellow- 62	Bikes	Touring Bikes	461	135	Mid performance	11	50	50	50	742	742	3372
+171	Touring-2000 Blue- 46	Bikes	Touring Bikes	755	135	High performance	12	97	97	97	1215	1215	9821
+172	Touring-2000 Blue- 50	Bikes	Touring Bikes	755	135	High performance	12	106	106	106	1215	1215	10732
+173	Touring-2000 Blue- 54	Bikes	Touring Bikes	755	135	High performance	11	88	88	88	1215	1215	9720
+174	Touring-2000 Blue- 60	Bikes	Touring Bikes	755	135	High performance	12	81	81	81	1215	1215	8201
+175	Touring-1000 Blue- 46	Bikes	Touring Bikes	1482	135	High performance	12	177	177	177	2384	2384	35164
+176	Touring-1000 Blue- 50	Bikes	Touring Bikes	1482	135	High performance	12	150	150	150	2384	2384	29800
+177	Touring-1000 Blue- 54	Bikes	Touring Bikes	1482	135	High performance	11	160	160	160	2384	2384	34676
+178	Touring-1000 Blue- 60	Bikes	Touring Bikes	1482	135	High performance	12	147	147	147	2384	2384	29204
+179	Touring-1000 Yellow- 46	Bikes	Touring Bikes	1482	135	High performance	11	170	172	172	2384	2384	37277
+180	Touring-1000 Yellow- 50	Bikes	Touring Bikes	1482	135	High performance	12	150	151	151	2384	2384	29998
+181	Touring-1000 Yellow- 54	Bikes	Touring Bikes	1482	135	High performance	11	158	158	158	2384	2384	34242
+182	Touring-1000 Yellow- 60	Bikes	Touring Bikes	1482	135	High performance	11	140	140	140	2384	2384	30341
+183	AWC Logo Cap	Clothing	Caps	7	134	Mid performance	13	2132	2190	2190	9	9	1516
+184	Half-Finger Gloves- L	Clothing	Gloves	9	134	Mid performance	13	437	443	443	24	24	817
+185	Half-Finger Gloves- M	Clothing	Gloves	9	134	Mid performance	13	488	499	499	24	24	921
+186	Half-Finger Gloves- S	Clothing	Gloves	9	134	Mid performance	13	478	487	487	24	24	899
+187	Long-Sleeve Logo Jersey- L	Clothing	Jerseys	38	134	Mid performance	13	449	452	453	50	50	1742
+188	Long-Sleeve Logo Jersey- M	Clothing	Jerseys	38	134	Mid performance	13	436	442	442	50	50	1700
+189	Long-Sleeve Logo Jersey- S	Clothing	Jerseys	38	134	Mid performance	12	426	429	429	50	50	1787
+190	Long-Sleeve Logo Jersey- XL	Clothing	Jerseys	38	134	Mid performance	12	409	413	414	50	50	1725
+191	Short-Sleeve Classic Jersey- L	Clothing	Jerseys	42	134	Mid performance	13	372	374	374	54	54	1553
+192	Short-Sleeve Classic Jersey- M	Clothing	Jerseys	42	134	Mid performance	13	404	407	407	54	54	1690
+193	Short-Sleeve Classic Jersey- S	Clothing	Jerseys	42	134	Mid performance	13	402	406	406	54	54	1686
+194	Short-Sleeve Classic Jersey- XL	Clothing	Jerseys	42	134	Mid performance	12	405	409	409	54	54	1840
+195	Women's Mountain Shorts- L	Clothing	Shorts	26	134	Mid performance	12	363	363	363	70	70	2117
+196	Women's Mountain Shorts- M	Clothing	Shorts	26	134	Mid performance	12	352	352	352	70	70	2053
+197	Women's Mountain Shorts- S	Clothing	Shorts	26	134	Mid performance	12	304	304	304	70	70	1773
+198	Racing Socks- L	Clothing	Socks	3	134	Low performance	13	269	270	270	9	9	186
+199	Racing Socks- M	Clothing	Socks	3	134	Low performance	12	295	298	298	9	9	223
+200	Classic Vest- L	Clothing	Vests	24	134	Mid performance	12	195	195	195	64	64	1040
+201	Classic Vest- M	Clothing	Vests	24	134	Mid performance	12	199	199	199	64	64	1061
+202	Classic Vest- S	Clothing	Vests	24	134	Mid performance	13	168	168	171	64	65	841
